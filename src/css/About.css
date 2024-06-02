@@ -1,0 +1,53 @@
+.aboutus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .aboutus-content {
+    max-width: 600px;
+    margin-bottom: 20px; /* Added margin-bottom for spacing */
+    text-align: center; /* Center align text */
+  }
+  
+  .aboutus-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .aboutus-content p {
+    font-size: 1.7rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .aboutus-image {
+    max-width: 400px;
+    margin-bottom: 20px; /* Added margin-bottom for spacing */
+  }
+  
+  .aboutus-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Map-container {
+    width: 90%;
+    height: 70vh;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
